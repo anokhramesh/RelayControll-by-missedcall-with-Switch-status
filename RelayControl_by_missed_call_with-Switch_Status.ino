@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 const int relayPin=5;//connect digital pin 5 of Arduino to IN pin of Relay module
-const int ledPin=13;//connect digital pin 13  of Arduino to switch indicator led
+const int ledPin=6;//connect digital pin 6  of Arduino to switch indicator led
 bool relayStatus=1;
 bool ledStatus=1;
 const String phone="+971557407961";  // white list phone include +91 or your country code
